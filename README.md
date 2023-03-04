@@ -1,3 +1,1 @@
 # yourfashion
-
-Trening
