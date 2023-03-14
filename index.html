@@ -5,56 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&family=Poppins:wght@200;300;400;500;700&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">next<br />prest</a>
-        <ul>
-          <li><a href="#">Women</a></li>
-          <li><a href="#">Men</a></li>
-          <li><a href="#">Teens</a></li>
-          <li><a href="#">Kids</a></li>
-          <li><a href="#">Lookbook</a></li>
-          <li><a href="#">Musthave</a></li>
+    <header class="header">
+      <div class="container header-line">
+        <div class="header-logo-wrapper">
+          <a class="header-logo link" href="./index.html">next prest</a>
+        </div>
+        <nav class="header-nav">
+          <ul class="header-menu-list list">
+            <li class="header-menu-item">
+              <a class="header-menu-link link" href="#">Women</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link link" href="#">Men</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link link" href="#">Teens</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link link" href="#">Kids</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link link" href="#">Lookbook</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link link" href="#">Musthave</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="service-buttons-list list">
+          <li class="service-buttons-item">
+            <a class="service-buttons-link link" href="#"
+              ><img src="./images/search.svg" alt="Search"
+            /></a>
+          </li>
+          <li class="service-buttons-item">
+            <a class="service-buttons-link link" href="#"
+              ><img src="./images/favorites.svg" alt="Favorites"
+            /></a>
+          </li>
+          <li class="service-buttons-item">
+            <a class="service-buttons-link link" href="#"
+              ><img src="./images/shopping-cart.svg" alt="Shopping Cart"
+            /></a>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <a href="#"><img src="" alt="Search" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="" alt="Favorites" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="" alt="Basket" /></a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
-      <section>
-        <p>makeover</p>
-        <h1>Your Fashion</h1>
-        <p>Look</p>
-        <p>
-          Meet our new autumn collection from famous brands and young designers
-          - exclusively at Fabulous!
-        </p>
-        <button type="button">Shop now</button>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-slider">
+            <p class="hero-suptitle">makeover</p>
+            <h1 class="hero-title">Your Fashion</h1>
+            <p class="hero-subtitle">Look</p>
+            <p class="hero-text">
+              Meet our new autumn collection from famous brands and young
+              designers - exclusively at Fabulous!
+            </p>
+            <button class="hero-button" type="button">Shop now</button>
+          </div>
+        </div>
       </section>
       <section>
-        <h2></h2>
+        <h2>D</h2>
         <ul>
           <li>
-            <img src="" alt="" />
+            <img src="/" alt="" />
             <p>Delivery of goods to the next day to your home or office</p>
           </li>
           <li>
-            <img src="" alt="" />
+            <img src="/" alt="" />
             <p>Convenient payment by bank cards, cash and credit</p>
           </li>
           <li>
-            <img src="" alt="" />
+            <img src="/" alt="" />
             <p>Choose a gift and get discounts just - a gift card!</p>
           </li>
         </ul>
@@ -73,7 +113,7 @@
         <ul>
           <li>
             <a href="">
-              <img src="" alt="" />
+              <img src="/" alt="" />
               <h3>A black dress</h3>
               <p>
                 Starting From
@@ -83,7 +123,7 @@
           </li>
           <li>
             <a href="">
-              <img src="" alt="" />
+              <img src="/" alt="" />
               <h3>Cardigan Pink</h3>
               <p>
                 Starting From
@@ -93,7 +133,7 @@
           </li>
           <li>
             <a href="">
-              <img src="" alt="" />
+              <img src="/" alt="" />
               <h3>Dress, printed</h3>
               <p>
                 Starting From
@@ -103,7 +143,7 @@
           </li>
           <li>
             <a href="">
-              <img src="" alt="" />
+              <img src="/" alt="" />
               <h3>White blouse</h3>
               <p>
                 Starting From
@@ -122,7 +162,7 @@
         <ul>
           <li>
             <a href="">
-              <img src="" alt="" />
+              <img src="/" alt="" />
               <h3>A black dress</h3>
               <p>
                 Starting From
@@ -132,7 +172,7 @@
           </li>
           <li>
             <a href="">
-              <img src="" alt="" />
+              <img src="/" alt="" />
               <h3>A black dress</h3>
               <p>
                 Starting From
@@ -141,10 +181,155 @@
             </a>
           </li>
         </ul>
-        <img src="" alt="" />
+        <img src="/" alt="" />
       </section>
-      <section></section>
+      <section>
+        <p>deal of the day</p>
+        <h2>Summer Look</h2>
+        <ul>
+          <li>
+            <p>12</p>
+            <p>hours</p>
+          </li>
+          <li>
+            <p>:</p>
+            <p></p>
+          </li>
+          <li>
+            <p>45</p>
+            <p>minutes</p>
+          </li>
+          <li>
+            <p>:</p>
+            <p></p>
+          </li>
+          <li>
+            <p>01</p>
+            <p>seconds</p>
+          </li>
+        </ul>
+        <button type="button">Shop now</button>
+      </section>
+      <section>
+        <h2>New arrivals</h2>
+        <ul>
+          <li>
+            <img src="/" alt="" />
+            <h3>A black dress</h3>
+            <p>Starting From <span>$59.00</span></p>
+          </li>
+          <li>
+            <img src="/" alt="" />
+            <h3>A black dress</h3>
+            <p>Starting From <span>$59.00</span></p>
+          </li>
+          <li>
+            <img src="/" alt="" />
+            <h3>A black dress</h3>
+            <p>Starting From <span>$59.00</span></p>
+          </li>
+          <li>
+            <img src="/" alt="" />
+            <h3>A black dress</h3>
+            <p>Starting From <span>$59.00</span></p>
+          </li>
+          <li>
+            <img src="/" alt="" />
+            <h3>A black dress</h3>
+            <p>Starting From <span>$59.00</span></p>
+          </li>
+          <li>
+            <img src="/" alt="" />
+            <h3>A black dress</h3>
+            <p>Starting From <span>$59.00</span></p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Latest news</h2>
+        <ul>
+          <li>
+            <time datetime="2018">September 13, 2017</time>
+            <h3>Mix Your Prints</h3>
+            <p>
+              Do you already feel over excited about this? If not, let’s delve
+              more into which specific colors and hues will…
+            </p>
+          </li>
+          <li>
+            <time datetime="2018">September 13, 2017</time>
+            <h3>Conquer Your Fear of Color</h3>
+            <p>
+              With the world of fashion generally known for looping similar
+              trends over the years, one might expect that this time…
+            </p>
+          </li>
+          <li>
+            <time datetime="2018">September 13, 2017</time>
+            <h3>Pandora Holiday Collection</h3>
+            <p>
+              Long story short, the main factor this next season is the boldness
+              and audacity. Audacity is the name of the…
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>
+          Want to receive regular updates about our services? Sign up and we’ll
+          keep you posted!
+        </h2>
+        <form action="/">
+          <input type="email" placeholder="Enter your e-mail" />
+          <input type="submit" value="Subscribe" />
+        </form>
+      </section>
+      <section>
+        <h2>Footer information</h2>
+        <ul>
+          <li>
+            <h3>Information</h3>
+            <p>Specials</p>
+            <p>New products</p>
+            <p>Our stores</p>
+            <p>Contact us</p>
+            <p>About us</p>
+            <p>Pages configuration</p>
+          </li>
+          <li>
+            <h3>Categories</h3>
+            <p>Women</p>
+            <p>Men</p>
+            <p>Teens</p>
+            <p>Kids</p>
+            <p></p>
+            <p></p>
+          </li>
+          <li>
+            <h3>My account</h3>
+            <p>My orders</p>
+            <p>My merchandise returns</p>
+            <p>My credit slips</p>
+            <p>My addresses</p>
+            <p>My personal info</p>
+            <p></p>
+          </li>
+          <li>
+            <h3>Store Information</h3>
+            <address>
+              <p>My Company, 4578 Marmora Road, Glasgow</p>
+              <p>0123-456-789</p>
+              <p>info@demolink.org</p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </address>
+          </li>
+        </ul>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p>&copy;2018 - Ecommerce software by PrestaShop™</p>
+    </footer>
   </body>
 </html>
